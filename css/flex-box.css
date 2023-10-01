@@ -1,0 +1,32 @@
+ul {
+    display: flex;
+    background-color: black;
+    height: 100px;
+    /* align items on main axis */
+    justify-content: center;
+    flex-wrap: wrap;
+    /* direction child element */
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+.logo {
+
+    padding: 0px, 40px;
+    display: flex;
+
+}
+
+.logo-text {
+    padding-top: 5px;
+    font-size: 50px;
+
+}
